@@ -1,102 +1,261 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Glific",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#0D9373",
+    "light": "#55D799",
+    "dark": "#0D9373"
   },
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Glific",
         "groups": [
           {
-            "group": "Get Started",
+            "group": "Onboarding",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "docs/docs/category/onboarding",
+              "docs/docs/Onboarding/Glific Onboarding Toolkit",
+              "docs/docs/Onboarding/Facebook Verification Process for WhatsApp Business API",
+              "docs/docs/Onboarding/Setup an organisation on GupShup",
+              "docs/docs/Onboarding/Pricing, Billing & Payment",
+              "docs/docs/category/gcs-setup",
+              "docs/docs/Onboarding/Managing an Organization's Glific Account: Suspension and Deletion",
+              "docs/docs/Onboarding/Migration to Glific",
+              "docs/docs/Onboarding/Onboarding Form Fill Up"
             ]
           },
           {
-            "group": "Essentials",
+            "group": "Pilot Essentials",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+              "docs/docs/Pilot Essentials"
+            ]
+          },
+          {
+            "group": "Product Features",
+            "pages": [
+              "docs/docs/category/product-features",
+              "docs/docs/Product Features/Chats",
+              "docs/docs/Product Features/Speed Sends",
+              "docs/docs/category/flows",
+              "docs/docs/Product Features/Triggers",
+              "docs/docs/Product Features/Searches",
+              "docs/docs/Product Features/Templates",
+              "docs/docs/Product Features/Interactive Messages",
+              "docs/docs/Product Features/Notifications",
+              "docs/docs/category/reporting--dashboard",
+              "docs/docs/category/others-1",
+              "docs/docs/Product Features/Custom Certificates"
+            ]
+          },
+          {
+            "group": "Starter Kit",
+            "pages": [
+              "docs/docs/Starter Kit/12 Pre-launch Chatbot Checks"
+            ]
+          },
+          {
+            "group": "Integrations",
+            "pages": [
+              "docs/docs/category/integrations",
+              "docs/docs/Integrations/Bhashini Integrations",
+              "docs/docs/Integrations/ChatGPT using OpenAI APIs",
+              "docs/docs/Integrations/Dialogflow for Natural Language Processing",
+              "docs/docs/Integrations/Filesearch Using OpenAI Assistants",
+              "docs/docs/Integrations/GPT integration for image recognition",
+              "docs/docs/Integrations/Google Maps API for reverse geo location",
+              "docs/docs/Integrations/Setting up Exotel",
+              "docs/docs/Integrations/Structured responses in GPT webhook functions"
+            ]
+          },
+          {
+            "group": "FAQ",
+            "pages": [
+              "docs/docs/category/faq",
+              "docs/docs/FAQ/Find opt-in link of our NGO",
+              "docs/docs/FAQ/Check if contact is not opted in",
+              "docs/docs/FAQ/Check if user is opted-in in the flow",
+              "docs/docs/FAQ/Change admin in our FB business account",
+              "docs/docs/FAQ/Update my profile picture of BOT",
+              "docs/docs/FAQ/Make sure flow is not interrupted if contact sends any keyword in between the flow.",
+              "docs/docs/FAQ/Make a flow inactive",
+              "docs/docs/FAQ/Format the text in messages.",
+              "docs/docs/FAQ/Send a link of a specific flow to new contacts to join the BOT",
+              "docs/docs/FAQ/Get upload attachment option in Send message",
+              "docs/docs/FAQ/Give permissions to individuals in Google Cloud Storage GCS",
+              "docs/docs/FAQ/Add bulk contacts to my Glific account",
+              "docs/docs/FAQ/Add the display Name of the BOT number and show it to end-users",
+              "docs/docs/FAQ/Create a flow to capture multiple answers for a single question",
+              "docs/docs/FAQ/Check WhatsApp Quality Rating and Messaging Limits",
+              "docs/docs/FAQ/Read Receipts",
+              "docs/docs/FAQ/Find the QR Code of BOT for opt-in contacts.",
+              "docs/docs/FAQ/Gupshup wallet balance and Usage",
+              "docs/docs/FAQ/Update collection with bulk contacts or contact fields",
+              "docs/docs/FAQ/Get a data of a particular flow from BigQuery",
+              "docs/docs/FAQ/Get WABA ID",
+              "docs/docs/FAQ/How to get Green Tick in Whatsapp Business",
+              "docs/docs/FAQ/Using Glific APIs for OTP Authentication",
+              "docs/docs/FAQ/Get Glific Support",
+              "docs/docs/FAQ/Deduction Type of Messages on the WhatsApp Business Platform",
+              "docs/docs/FAQ/Enable Google Sheet API and link to Glific",
+              "docs/docs/FAQ/Grant access to the Service Account in Google Console",
+              "docs/docs/FAQ/How to add new contacts in bulk",
+              "docs/docs/FAQ/Languages Supported",
+              "docs/docs/FAQ/Managing Gupshup Wallet Balance and Suspension"
+            ]
+          },
+          {
+            "group": "Use Cases",
+            "pages": [
+              "docs/docs/Use Cases/AI Assistants To Send Files As Attachments",
+              "docs/docs/Use Cases/Clear Flows: Resetting Contact Variables for Testing",
+              "docs/docs/Use Cases/How To Set Up HSM Delivery Dashboard",
+              "docs/docs/Use Cases/Use of Google Sheets To Update Contact Variables"
+            ]
+          },
+          {
+            "group": "WhatsApp Groups Automation",
+            "pages": [
+              "docs/docs/WhatsApp Groups Automation/Google Sheets Integration For WhatsApp Groups",
+              "docs/docs/WhatsApp Groups Automation/Onboarding for new NGOs",
+              "docs/docs/WhatsApp Groups Automation/Sending Polls To WhatsApp Groups",
+              "docs/docs/WhatsApp Groups Automation/Setting up WhatsApp Groups Automation for existing NGOs",
+              "docs/docs/WhatsApp Groups Automation/WhatsApp Groups Automation Features"
+            ]
+          },
+          {
+            "group": "Onboarding",
+            "pages": [
+              "docs/docs/category/onboarding",
+              "docs/docs/Onboarding/Glific Onboarding Toolkit",
+              "docs/docs/Onboarding/Facebook Verification Process for WhatsApp Business API",
+              "docs/docs/Onboarding/Setup an organisation on GupShup",
+              "docs/docs/Onboarding/Pricing, Billing & Payment",
+              "docs/docs/category/gcs-setup",
+              "docs/docs/Onboarding/Managing an Organization's Glific Account: Suspension and Deletion",
+              "docs/docs/Onboarding/Migration to Glific",
+              "docs/docs/Onboarding/Onboarding Form Fill Up"
+            ]
+          },
+          {
+            "group": "Pilot Essentials",
+            "pages": [
+              "docs/docs/Pilot Essentials"
+            ]
+          },
+          {
+            "group": "Product Features",
+            "pages": [
+              "docs/docs/category/product-features",
+              "docs/docs/Product Features/Chats",
+              "docs/docs/Product Features/Speed Sends",
+              "docs/docs/category/flows",
+              "docs/docs/Product Features/Triggers",
+              "docs/docs/Product Features/Searches",
+              "docs/docs/Product Features/Templates",
+              "docs/docs/Product Features/Interactive Messages",
+              "docs/docs/Product Features/Notifications",
+              "docs/docs/category/reporting--dashboard",
+              "docs/docs/category/others-1",
+              "docs/docs/Product Features/Custom Certificates"
+            ]
+          },
+          {
+            "group": "Starter Kit",
+            "pages": [
+              "docs/docs/Starter Kit/12 Pre-launch Chatbot Checks"
+            ]
+          },
+          {
+            "group": "Integrations",
+            "pages": [
+              "docs/docs/category/integrations",
+              "docs/docs/Integrations/Bhashini Integrations",
+              "docs/docs/Integrations/ChatGPT using OpenAI APIs",
+              "docs/docs/Integrations/Dialogflow for Natural Language Processing",
+              "docs/docs/Integrations/Filesearch Using OpenAI Assistants",
+              "docs/docs/Integrations/GPT integration for image recognition",
+              "docs/docs/Integrations/Google Maps API for reverse geo location",
+              "docs/docs/Integrations/Setting up Exotel",
+              "docs/docs/Integrations/Structured responses in GPT webhook functions"
+            ]
+          },
+          {
+            "group": "FAQ",
+            "pages": [
+              "docs/docs/category/faq",
+              "docs/docs/FAQ/Find opt-in link of our NGO",
+              "docs/docs/FAQ/Check if contact is not opted in",
+              "docs/docs/FAQ/Check if user is opted-in in the flow",
+              "docs/docs/FAQ/Change admin in our FB business account",
+              "docs/docs/FAQ/Update my profile picture of BOT",
+              "docs/docs/FAQ/Make sure flow is not interrupted if contact sends any keyword in between the flow.",
+              "docs/docs/FAQ/Make a flow inactive",
+              "docs/docs/FAQ/Format the text in messages.",
+              "docs/docs/FAQ/Send a link of a specific flow to new contacts to join the BOT",
+              "docs/docs/FAQ/Get upload attachment option in Send message",
+              "docs/docs/FAQ/Give permissions to individuals in Google Cloud Storage GCS",
+              "docs/docs/FAQ/Add bulk contacts to my Glific account",
+              "docs/docs/FAQ/Add the display Name of the BOT number and show it to end-users",
+              "docs/docs/FAQ/Create a flow to capture multiple answers for a single question",
+              "docs/docs/FAQ/Check WhatsApp Quality Rating and Messaging Limits",
+              "docs/docs/FAQ/Read Receipts",
+              "docs/docs/FAQ/Find the QR Code of BOT for opt-in contacts.",
+              "docs/docs/FAQ/Gupshup wallet balance and Usage",
+              "docs/docs/FAQ/Update collection with bulk contacts or contact fields",
+              "docs/docs/FAQ/Get a data of a particular flow from BigQuery",
+              "docs/docs/FAQ/Get WABA ID",
+              "docs/docs/FAQ/How to get Green Tick in Whatsapp Business",
+              "docs/docs/FAQ/Using Glific APIs for OTP Authentication",
+              "docs/docs/FAQ/Get Glific Support",
+              "docs/docs/FAQ/Deduction Type of Messages on the WhatsApp Business Platform",
+              "docs/docs/FAQ/Enable Google Sheet API and link to Glific",
+              "docs/docs/FAQ/Grant access to the Service Account in Google Console",
+              "docs/docs/FAQ/How to add new contacts in bulk",
+              "docs/docs/FAQ/Languages Supported",
+              "docs/docs/FAQ/Managing Gupshup Wallet Balance and Suspension"
+            ]
+          },
+          {
+            "group": "Use Cases",
+            "pages": [
+              "docs/docs/Use Cases/AI Assistants To Send Files As Attachments",
+              "docs/docs/Use Cases/Clear Flows: Resetting Contact Variables for Testing",
+              "docs/docs/Use Cases/How To Set Up HSM Delivery Dashboard",
+              "docs/docs/Use Cases/Use of Google Sheets To Update Contact Variables"
+            ]
+          },
+          {
+            "group": "WhatsApp Groups Automation",
+            "pages": [
+              "docs/docs/WhatsApp Groups Automation/Google Sheets Integration For WhatsApp Groups",
+              "docs/docs/WhatsApp Groups Automation/Onboarding for new NGOs",
+              "docs/docs/WhatsApp Groups Automation/Sending Polls To WhatsApp Groups",
+              "docs/docs/WhatsApp Groups Automation/Setting up WhatsApp Groups Automation for existing NGOs",
+              "docs/docs/WhatsApp Groups Automation/WhatsApp Groups Automation Features"
             ]
           }
         ]
       },
       {
-        "tab": "API Reference",
+        "tab": "Documentation",
         "groups": [
           {
-            "group": "API Documentation",
+            "group": "Intro",
             "pages": [
-              "api-reference/introduction"
+              "docs/docs/intro"
             ]
           },
           {
-            "group": "Endpoint Examples",
+            "group": "Intro",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "docs/docs/intro"
             ]
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
-  },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
-    }
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
+    ]
   }
 }
